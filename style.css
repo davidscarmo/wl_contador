@@ -1,0 +1,114 @@
+
+
+body{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#placar-area
+{
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+    background-image: linear-gradient(-180deg,yellow, red);
+}
+
+#fut-logo
+{
+    display: block;
+    width: 30%;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    top: -50px;
+    clear: both;
+}
+
+#wl-placar
+{
+    width: auto;
+    float: right;
+    margin: 1%;
+    
+}
+#wl-wins, #wl-loses 
+{
+    width: auto;
+    height: auto;
+    margin: 0 3px;
+    float: left;
+    text-align: center;
+    font-size: 40px;
+}
+#wl-wins 
+{
+    color: green;
+}
+#wl-loses
+{
+    color: red;
+}
+
+
+#team-level
+{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: -50px;
+}
+
+#wl-btn
+{
+    width: 100px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    top: -45px;
+    
+}
+
+#win-btn, #lose-btn
+{
+    width: 40px;
+    height: 40px;
+    border: none;
+    display: inline-block;
+    margin: 2px;
+    color: white;
+    font-size: 15px;
+}
+
+#cancel-btn, #zero-btn
+{
+    width: 90%;
+    margin: 2px 1px;
+    background-image:  linear-gradient(-180deg,yellow, red);
+    font-weight: bold;
+    border: none;
+    color: white;
+    font-size: 0.9em;
+}
+
+#win-btn
+{
+    background-image: linear-gradient(-180deg, rgb(0, 128, 0), rgb(77, 218, 77));
+    
+}
+
+#lose-btn
+{
+    background-image: linear-gradient(-180deg, rgb(255, 0, 0), rgb(248, 88, 88));
+}
+
+
+#games-remaining
+{
+    text-align: center;
+    padding: 0 0 2% 0;
+    margin: -2% 0 3% 0;
+    color: aliceblue;
+}

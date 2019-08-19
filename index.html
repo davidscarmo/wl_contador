@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Placar da WL</title>
+    <link rel="shortcut icon" href="fut_logo.png" type="image/x-icon" />
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body onload="placarInicial()">
+    <main id="placar-area" >
+        
+        <div id="wl-placar">
+            <p id="wl-wins">
+
+            </p>
+
+            <p id="wl-loses">
+
+            </p>
+        </div>
+        <img src="fut_logo.png" alt="Logo do fut champions" id="fut-logo">   
+        
+        <div id="wl-btn">
+            <button id="win-btn" onclick="addWin(1)">W</button>
+            <button id="lose-btn"onclick="addLose(1)">L</button>
+            <button id="cancel-btn" onclick="deleteLast()">Cancelar</button>
+            <button id="zero-btn" onclick="reset()">Zerar</button>
+        </div>
+
+        <p id="games-remaining"></p>
+    </main>
+</body>
+</html>
